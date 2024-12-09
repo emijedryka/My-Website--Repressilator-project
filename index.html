@@ -17,10 +17,8 @@
         <a href="repressilator_project.py" download>Download Python File</a>
         <section>
             <h2>Repressilator Project</h2>
-            import numpy as np
-import matplotlib.pyplot as plt
-from scipy.integrate import odeint
-Repressilator Background and Introduction
+            
+-Repressilator Background and Introduction
 How does this apply to biological systems and what techniques from BIOL301 are we using?
 
 The repressilator is a synthetic genetic simulation, usually containing three or more genes that inhibit each other in a cyclical pattern. It creates periodic behavior similar to natural biological oscillators that can be graphed and analyzed. This system shows how engineering principles can be applied to design predictable and tunable biological systems. The project focuses on exploring how changing parameters like cooperativity (n) and production rates (α) influence the dynamics of the repressilator, specifically whether it reaches a steady state or produces oscillations.
@@ -33,7 +31,7 @@ Techniques we are using are ordinary differential equations (ODEs) to model the 
 
 To read more background and information over repressilator systems with biological applications and other modeling methods, click on the link here!
 
-How does a low cooperativity (𝑛) and production rate (𝛼) value affect the repressilator's dynamics, specifically in terms of reaching a steady state versus producing oscillations?
+-How does a low cooperativity (𝑛) and production rate (𝛼) value affect the repressilator's dynamics, specifically in terms of reaching a steady state versus producing oscillations?
 # Define repressilator equations with four terms
 def repressilator(y, t, alpha, n):
     x1, x2, x3, x4 = y
